@@ -1,12 +1,12 @@
 
 users = [
     {
-        "username" => "jinsoo",
-        "password" => "password"
+        username:"jinsoo",
+        password:"password"
     },
     {
-        "username" =>  "jinhyun",
-        "password" => "password1"
+        username:"jinhyun",
+        password:"password1"
     }
 ]
 
@@ -25,7 +25,7 @@ loop do
     input_password = gets.chomp
 
     users.each do | user |
-        if user["username"] == input_username && user["password"] == input_password
+        if user[:username] == input_username && user[:password] == input_password
             puts user
         end
     end
