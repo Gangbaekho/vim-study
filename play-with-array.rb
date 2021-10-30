@@ -40,4 +40,3 @@ puts my_string.equal?(my_string_two)
 
 # i think equal method compares reference!!
 puts my_string.equal?(my_string)
-
