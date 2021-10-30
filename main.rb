@@ -67,7 +67,7 @@
 # numer + x -> delete number length index
 # I -> insert mode before the start of the line
 # ~ -> toUppercase current cursor
-# ! -> redo last command
+# ! -> redo last commandjk
 
 
 
